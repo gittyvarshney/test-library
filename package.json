@@ -1,6 +1,10 @@
 {
   "name": "pv66645-test-1",
-  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gittyvarshney/test-library"
+  },
+  "version": "1.0.2",
   "description": "An example component library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
