@@ -29,10 +29,10 @@ export const Counter: React.FC<{}> = (props) => {
         <>
         <p> Counter: {count}</p>
         <Button backgroundColor='green' onButtonClick={(e) => { setCount(prev => prev + 1) }}>
-            Increment
+            Increment Counter
         </Button >
-        <Button backgroundColor='orange' onButtonClick={(e) => { setCount(prev => prev - 1) }}>
-            Decrement
+        <Button backgroundColor='red' onButtonClick={(e) => { setCount(prev => prev - 1) }}>
+            Decrement Counter
         </Button>
         </>
     )
